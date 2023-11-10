@@ -7,3 +7,4 @@ pull_request:
 jobs: 
   build:
     runs-on: ubuntu-latest
+      container: python:3.9-slim
